@@ -1,0 +1,109 @@
+body {
+  width: 1440px;
+  height: auto;
+  margin: 0px;
+  background-image: url('../Images/r-mac-wheeler-CJZi367anGU-unsplash.jpg');
+  background-size: contain;
+}
+
+header {
+  width: 1450px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: #49c6fc;
+  color: #c1d200;
+  font-size: 60px;
+  font-family: Inspiration;
+  font-weight: 400;
+  letter-spacing: 18px;
+  word-wrap: break-word;
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: normal;
+  box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.1);
+}
+
+main {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+nav {
+  width: 40%;
+  word-spacing: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 120px;
+}
+
+footer {
+  width: 1450px;
+  height: 40px;
+  background: #49c6fc;
+  color: #000000;
+  font-size: 20px;
+  font-family: Inspiration;
+  padding-left: 20px;
+  display: flex;
+  justify-content: space-between; /* Align items with space between them */
+  align-items: center; /* Center items vertically */
+}
+
+footer p {
+  margin: 0; /* Remove default margin for the paragraph */
+}
+
+.logos {
+  display: flex;
+  margin-right: 20px; /* Adjust margin as needed */
+}
+
+.logos img {
+  height: 30px;
+  width: 30px;
+  margin-left: 10px; /* Add margin between images if desired */
+}
+
+.navlink {
+  width: fit-content;
+  height: 100%;
+  margin: 10px;
+}
+
+nav a img:hover {
+  transform: translateY(-5px);
+}
+
+header img {
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+.backgroundGrayBox {
+  width: 98%;
+  height: 750px;
+  background: rgba(217, 217, 217, 0.7);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  backdrop-filter: blur(4px);
+  margin: 100px 0 0 0px;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.bigBox {
+  width: calc(100% - 40px);
+  max-width: 1200px;
+  border-radius: 10px;
+  margin: 20px auto;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
