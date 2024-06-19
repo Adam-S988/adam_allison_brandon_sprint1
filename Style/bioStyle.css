@@ -45,6 +45,10 @@ body {
 }
 
 .blurBG {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 20px;
   height: 90%;
   width: 90%;
   top: 0;
@@ -56,4 +60,15 @@ body {
   background: rgba(217, 217, 217, 0.7);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   backdrop-filter: blur(2px);
+}
+
+.portrait {
+  top: 25%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 300px;
+  border-radius: 10%;
+  border: 2px solid white;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
