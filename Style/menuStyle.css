@@ -3,7 +3,7 @@ body {
   height: auto;
   margin: 0px;
   background-image: url("/Images/amel-majanovic-0s-D2GUrC-A-unsplash.jpg");
-  background-size: contain;
+  background-size: cover;
 }
 
 header {
@@ -42,7 +42,31 @@ nav {
 }
 
 footer {
-  background: #c1d200;
+  width: 1450px;
+  height: 40px;
+  background: #49c6fc;
+  color: #000000;
+  font-size: 20px;
+  font-family: Inspiration;
+  padding-left: 20px;
+  display: flex;
+  justify-content: space-between; /* Align items with space between them */
+  align-items: center; /* Center items vertically */
+}
+
+footer p {
+  margin: 0; /* Remove default margin for the paragraph */
+}
+
+.logos {
+  display: flex;
+  margin-right: 20px; /* Adjust margin as needed */
+}
+
+.logos img {
+  height: 30px;
+  width: 30px;
+  margin-left: 10px; /* Add margin between images if desired */
 }
 
 .navlink {
@@ -62,7 +86,7 @@ header img {
 
 .backgroundGrayBox {
   width: 98%;
-  height: 750px;
+  height: 500px;
   background: rgba(217, 217, 217, 0.7);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 25px;
@@ -86,7 +110,7 @@ header img {
   width: 358px;
   height: 78px;
   margin-bottom: 100px;
-  background: white;
+  background: rgb(255, 255, 255);
   border-radius: 20px;
   display: flex;
   justify-content: center;
