@@ -132,3 +132,11 @@ header img {
 .roundBoxes:not(.active) .roundBoxesContent img {
   opacity: 0;
 }
+
+.welcome {
+  font-size: 64px;
+}
+
+.introBlurb {
+  font-size: 32px;
+}
