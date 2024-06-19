@@ -1,6 +1,6 @@
 body {
   width: 1440px;
-  height: fit-content;
+  height: auto;
   margin: 0px;
   background-image: url("/Images/amel-majanovic-0s-D2GUrC-A-unsplash.jpg");
   background-size: contain;
@@ -39,6 +39,10 @@ nav {
   align-items: center;
   justify-content: space-evenly;
   margin-left: 120px;
+}
+
+footer {
+  background: #c1d200;
 }
 
 .navlink {
