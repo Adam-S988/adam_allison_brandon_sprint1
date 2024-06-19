@@ -25,33 +25,14 @@
         <p>Please fill out this form with the required information</p>
         <form method="post" action="#">
           <fieldset>
-            <label for="first-name"
-              >Enter Your First Name:
+            <label for="full-name"
+              >Enter Your Full Name:
               <input
-                id="first-name"
-                name="first-name"
+                id="full-name"
+                name="full-name"
                 type="text"
-                placeholder="Alan"
+                placeholder="Alan Smith"
                 required
-            /></label>
-            <label for="last-name"
-              >Enter Your Last Name:
-              <input
-                id="last-name"
-                name="last-name"
-                type="text"
-                placeholder="Smith"
-                required
-            /></label>
-            <label for="age"
-              >Input your age (years):
-              <input
-                id="age"
-                type="number"
-                name="age"
-                min="14"
-                max="120"
-                placeholder="0"
             /></label>
             <label for="phone number"
               >Enter your phone number:
@@ -84,7 +65,7 @@
 
           <fieldset>
             <legend>Payment Method (required)</legend>
-            <label for="debit-card"
+            <label for="debit-card" class="inline"
               ><input
                 id="payment-method"
                 type="radio"
@@ -94,7 +75,7 @@
               />
               Debit Card</label
             >
-            <label for="credit-card"
+            <label for="credit-card" class="inline"
               ><input
                 id="credit-card"
                 type="radio"
@@ -103,7 +84,7 @@
               />
               Credit Card</label
             >
-            <label for="cash"
+            <label for="cash" class="inline"
               ><input
                 id="cash"
                 type="radio"
