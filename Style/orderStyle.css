@@ -1,0 +1,177 @@
+body {
+  width: 1440px;
+  height: auto;
+  margin: 0px;
+  background-image: url('../Images/r-mac-wheeler-CJZi367anGU-unsplash.jpg');
+  background-size: contain;
+}
+
+header {
+  width: 1450px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: #49c6fc;
+  color: #c1d200;
+  font-size: 60px;
+  font-family: Inspiration;
+  font-weight: 400;
+  letter-spacing: 18px;
+  word-wrap: break-word;
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: normal;
+  box-shadow: 0px 10px 8px rgba(182, 127, 127, 0.1);
+}
+
+main {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+nav {
+  width: 40%;
+  word-spacing: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 120px;
+}
+
+h1,
+p {
+  margin: 0;
+}
+
+footer {
+  width: 1450px;
+  height: 40px;
+  background: #49c6fc;
+  color: #000000;
+  font-size: 20px;
+  font-family: Inspiration;
+  padding-left: 20px;
+  display: flex;
+  justify-content: space-between; /* Align items with space between them */
+  align-items: center; /* Center items vertically */
+}
+
+footer p {
+  margin: 0; /* Remove default margin for the paragraph */
+}
+
+.logos {
+  display: flex;
+  margin-right: 20px; /* Adjust margin as needed */
+}
+
+.logos img {
+  height: 30px;
+  width: 30px;
+  margin-left: 10px; /* Add margin between images if desired */
+}
+
+.navlink {
+  width: fit-content;
+  height: 100%;
+  margin: 10px;
+}
+
+nav a img:hover {
+  transform: translateY(-5px);
+}
+
+header img {
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+.backgroundGrayBox {
+  width: 98%;
+  height: 750px;
+  background: rgba(217, 217, 217, 0.7);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  backdrop-filter: blur(4px);
+  margin: 100px 0 0 0px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Just testing */
+form {
+  width: 700px;
+  height: 680px;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+fieldset {
+  border: none;
+  padding: 10px 0;
+  border-bottom: 3px solid #49c6fc;
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+label {
+  display: block;
+  margin: 0.3rem 0;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+input,
+textarea {
+  background-color: #c1d200;
+  border: 1px solid #c1d200;
+  color: #000000;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+  display: inline;
+}
+
+input[type='submit'] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #49c6fc;
+  border-color: white;
+  min-width: 300px;
+}
+
+select {
+  background-color: #c1d200;
+}
+
+.center-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.right-text {
+  text-align: center;
+  margin: 0 75px 0 0;
+}
