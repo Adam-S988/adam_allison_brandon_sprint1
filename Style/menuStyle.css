@@ -3,7 +3,7 @@ body {
   height: auto;
   margin: 0px;
   background-image: url("/Images/amel-majanovic-0s-D2GUrC-A-unsplash.jpg");
-  background-size: cover;
+  background-size: 100%;
 }
 
 header {
@@ -50,23 +50,27 @@ footer {
   font-family: Inspiration;
   padding-left: 20px;
   display: flex;
-  justify-content: space-between; /* Align items with space between them */
-  align-items: center; /* Center items vertically */
+  justify-content: space-between;
+  align-items: center;
 }
 
 footer p {
-  margin: 0; /* Remove default margin for the paragraph */
+  margin: 0;
+}
+
+h1 {
+  text-align: left;
 }
 
 .logos {
   display: flex;
-  margin-right: 20px; /* Adjust margin as needed */
+  margin-right: 20px;
 }
 
 .logos img {
   height: 30px;
   width: 30px;
-  margin-left: 10px; /* Add margin between images if desired */
+  margin-left: 10px;
 }
 
 .navlink {
@@ -86,7 +90,7 @@ header img {
 
 .backgroundGrayBox {
   width: 98%;
-  height: 500px;
+  height: 790px;
   background: rgba(217, 217, 217, 0.7);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 25px;
@@ -119,11 +123,13 @@ header img {
   margin: 10px;
   position: relative;
   overflow: hidden;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
 .roundBoxes.active {
   width: 358px;
   height: 341px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
 .roundBoxesText {
