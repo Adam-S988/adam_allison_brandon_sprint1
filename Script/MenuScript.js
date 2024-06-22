@@ -5,11 +5,11 @@ roundBoxes.forEach((box) => {
   box.addEventListener("click", () => {
     if (box.classList.contains("active")) {
       box.classList.remove("active");
-      backgroundGrayBox.style.height = "790px";
+      backgroundGrayBox.style.height = "1300px";
     } else {
       removeActiveClasses();
       box.classList.add("active");
-      backgroundGrayBox.style.height = "1100px";
+      backgroundGrayBox.style.height = "1570px";
     }
   });
 });
