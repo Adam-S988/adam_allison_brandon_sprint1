@@ -3,7 +3,7 @@ body {
   height: auto;
   margin: 0px;
   background-image: url('../Images/r-mac-wheeler-CJZi367anGU-unsplash.jpg');
-  background-size: contain;
+  background-size: cover;
 }
 
 header {
