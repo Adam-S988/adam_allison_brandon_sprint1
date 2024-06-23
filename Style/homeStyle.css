@@ -140,3 +140,31 @@ header img {
 .introBlurb {
   font-size: 32px;
 }
+
+.logos {
+  display: flex;
+  margin-right: 20px;
+}
+
+.logos img {
+  height: 30px;
+  width: 30px;
+  margin-left: 10px;
+}
+
+footer {
+  width: 1450px;
+  height: 40px;
+  background: #49c6fc;
+  color: #000000;
+  font-size: 20px;
+  font-family: Inspiration;
+  padding-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer p {
+  margin: 0;
+}
