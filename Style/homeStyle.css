@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+
 body {
   margin: 0;
   background-image: url("../Images/shawnanggg-TQQE32Gz4jw-unsplash.jpg");
@@ -49,33 +51,34 @@ nav {
 
 .backgroundGrayBox {
   width: 98%;
-
   height: 81vh;
   background: rgba(217, 217, 217, 0.7);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 25px;
   backdrop-filter: blur(4px);
-  padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   box-sizing: border-box;
   position: fixed;
-  top: 100px;
+  top: 95px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 500;
 }
 
 .welcome {
-  font-size: 2em;
   text-align: center;
+  font-family: "Abel", sans-serif;
+  font-size: 64px;
 }
 
 .introBlurb {
-  font-size: 1.2em;
+  font-size: 20px;
   text-align: center;
-  margin-bottom: 20px;
+  font-family: "Abel", sans-serif;
+  padding-bottom: 20px;
+  font-weight: 700;
 }
 
 .container {
@@ -91,6 +94,7 @@ nav {
   overflow: hidden;
   transition: height 0.5s;
   cursor: pointer;
+  font-family: "Abel", sans-serif;
 }
 
 .roundBoxes.active {
@@ -100,6 +104,7 @@ nav {
 .roundBoxesContent {
   padding: 10px;
   box-sizing: border-box;
+  text-align: center;
 }
 
 .roundBoxes h3 {
@@ -146,4 +151,23 @@ footer p {
 
 .logos img:hover {
   transform: translateY(-5px);
+}
+
+.buttonHeader {
+  font-size: 32px;
+  font-family: "Abel", sans-serif;
+  transition: 0.5s;
+}
+
+.buttonHeader:hover {
+  font-size: 32px;
+  font-family: "Abel", sans-serif;
+  color: #49c6fc;
+  transition: 0.5s;
+}
+
+.welcome {
+  letter-spacing: 5px;
+  margin: 0;
+  padding: 20px;
 }
