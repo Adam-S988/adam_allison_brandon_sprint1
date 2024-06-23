@@ -22,7 +22,7 @@ header {
   font-weight: 400;
   letter-spacing: 18px;
   display: flex;
-  align-items: center;
+  align-items: nor;
   justify-content: space-between;
   box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.1);
   padding: 0 50px;
@@ -32,6 +32,25 @@ header {
   left: 0;
   z-index: 1000;
 }
+
+/*header {
+  width: 1450px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: #49c6fc;
+  color: #c1d200;
+  font-size: 60px;
+  font-family: Inspiration;
+  font-weight: 400;
+  letter-spacing: 18px;
+  word-wrap: break-word;
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: normal;
+  box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.1);
+} */
 
 main {
   flex: 1;
@@ -71,6 +90,9 @@ nav {
   text-align: center;
   font-family: "Abel", sans-serif;
   font-size: 64px;
+  letter-spacing: 5px;
+  margin: 0;
+  padding: 20px;
 }
 
 .introBlurb {
@@ -79,6 +101,7 @@ nav {
   font-family: "Abel", sans-serif;
   padding-bottom: 20px;
   font-weight: 700;
+  letter-spacing: 3px;
 }
 
 .container {
@@ -105,6 +128,7 @@ nav {
   padding: 10px;
   box-sizing: border-box;
   text-align: center;
+  font-size: 32px;
 }
 
 .roundBoxes h3 {
@@ -166,8 +190,6 @@ footer p {
   transition: 0.5s;
 }
 
-.welcome {
-  letter-spacing: 5px;
-  margin: 0;
-  padding: 20px;
+nav a img:hover {
+  transform: translateY(-5px);
 }
