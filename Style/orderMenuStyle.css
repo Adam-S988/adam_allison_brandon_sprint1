@@ -42,12 +42,12 @@ nav {
 }
 
 footer {
-  width: 1450px;
+  width: 1430px;
   height: 40px;
   background: #49c6fc;
   color: #000000;
   font-size: 20px;
-  font-family: Inspiration;
+  font-family: Arial, Helvetica, sans-serif;
   padding-left: 20px;
   display: flex;
   justify-content: space-between;
@@ -61,6 +61,17 @@ footer p {
 h1 {
   text-align: left;
 }
+
+nav a img:hover {
+  transform: translateY(-5px);
+}
+
+header img {
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+/* Classes */
 
 .logos {
   display: flex;
@@ -79,18 +90,9 @@ h1 {
   margin: 10px;
 }
 
-nav a img:hover {
-  transform: translateY(-5px);
-}
-
-header img {
-  margin-top: 10px;
-  margin-left: 50px;
-}
-
 .backgroundGrayBox {
   width: 98%;
-  height: 790px;
+  height: 1380px;
   background: rgba(217, 217, 217, 0.7);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 25px;
@@ -118,7 +120,6 @@ header img {
   border-radius: 20px;
   display: flex;
   justify-content: center;
-
   flex-wrap: wrap;
   align-items: flex-start;
   margin: 10px;
@@ -147,4 +148,113 @@ header img {
 .roundBoxes h3 {
   text-align: center;
   padding-top: 10px;
+}
+
+select {
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Arial', sans-serif;
+  justify-content: center;
+  max-width: 260px;
+  text-align: center;
+  padding-top: 10px;
+  margin: 20px auto;
+  border: none;
+}
+
+button {
+  display: block;
+  width: 15%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: white;
+  border-color: white;
+  border-radius: 20px;
+  min-width: 300px;
+}
+
+button a {
+  text-decoration: none;
+  color: black;
+}
+
+button a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+button a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+/* @Media */
+
+@media only screen and (max-width: 1000px) {
+  body {
+    width: 740px;
+    height: fit-content;
+  }
+  header {
+    width: 1000px;
+  }
+  header img {
+    width: 350px;
+  }
+  nav {
+    margin-left: 0px;
+  }
+  nav img {
+    width: 100px;
+  }
+  main {
+    justify-content: center;
+  }
+  footer {
+    width: 980px;
+  }
+  .image-container {
+    height: 300px;
+    width: 500px;
+  }
+  .backgroundGrayBox {
+    width: 940px;
+    height: 2800px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  body {
+    width: 600px;
+    height: fit-content;
+  }
+  header {
+    width: 700px;
+  }
+  header img {
+    width: 250px;
+    margin-left: 10px;
+  }
+  nav {
+    margin-left: 0px;
+  }
+  nav img {
+    width: 100px;
+  }
+  main {
+    justify-content: center;
+  }
+  footer {
+    width: 680px;
+  }
+  .image-container {
+    height: 300px;
+    width: 500px;
+  }
+  .backgroundGrayBox {
+    width: 639px;
+    height: 2800px;
+  }
 }
