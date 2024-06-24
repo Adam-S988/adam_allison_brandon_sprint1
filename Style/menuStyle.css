@@ -42,12 +42,12 @@ nav {
 }
 
 footer {
-  width: 1450px;
+  width: 1430px;
   height: 40px;
   background: #49c6fc;
   color: #000000;
   font-size: 20px;
-  font-family: Inspiration;
+  font-family: Arial, Helvetica, sans-serif;
   padding-left: 20px;
   display: flex;
   justify-content: space-between;
@@ -61,6 +61,17 @@ footer p {
 h1 {
   text-align: left;
 }
+
+nav a img:hover {
+  transform: translateY(-5px);
+}
+
+header img {
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+/* Classes */
 
 .logos {
   display: flex;
@@ -79,18 +90,9 @@ h1 {
   margin: 10px;
 }
 
-nav a img:hover {
-  transform: translateY(-5px);
-}
-
-header img {
-  margin-top: 10px;
-  margin-left: 50px;
-}
-
 .backgroundGrayBox {
   width: 98%;
-  height: 1300px;
+  height: 1380px;
   background: rgba(217, 217, 217, 0.7);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 25px;
@@ -124,6 +126,7 @@ header img {
   position: relative;
   overflow: hidden;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  transition: height 0.5s linear;
 }
 
 .roundBoxes.active {
@@ -158,10 +161,92 @@ header img {
   opacity: 1;
 }
 
+.seePrices {
+  font-size: 20px;
+  text-align: center;
+  font-family: "Abel", sans-serif;
+  padding-bottom: 20px;
+  letter-spacing: 3px;
+}
+
 .roundBoxes.active .roundBoxesContent img {
   opacity: 1;
 }
 
 .roundBoxes:not(.active) .roundBoxesContent img {
   opacity: 0;
+}
+
+.roundBoxesContent:hover h3 {
+  color: #49c6fc;
+  transition: 0.5s;
+}
+
+/* @Media */
+
+@media only screen and (max-width: 1000px) {
+  body {
+    width: 740px;
+    height: fit-content;
+  }
+  header {
+    width: 1000px;
+  }
+  header img {
+    width: 350px;
+  }
+  nav {
+    margin-left: 0px;
+  }
+  nav img {
+    width: 100px;
+  }
+  main {
+    justify-content: center;
+  }
+  footer {
+    width: 980px;
+  }
+  .image-container {
+    height: 300px;
+    width: 500px;
+  }
+  .backgroundGrayBox {
+    width: 940px;
+    height: 2800px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  body {
+    width: 600px;
+    height: fit-content;
+  }
+  header {
+    width: 700px;
+  }
+  header img {
+    width: 250px;
+    margin-left: 10px;
+  }
+  nav {
+    margin-left: 0px;
+  }
+  nav img {
+    width: 100px;
+  }
+  main {
+    justify-content: center;
+  }
+  footer {
+    width: 680px;
+  }
+  .image-container {
+    height: 300px;
+    width: 500px;
+  }
+  .backgroundGrayBox {
+    width: 639px;
+    height: 2800px;
+  }
 }
