@@ -7,23 +7,23 @@ function updateBackgroundGrayBoxHeight() {
   );
   const windowWidth = window.innerWidth;
 
-  if (anyActive) {
-    if (windowWidth <= 700) {
-      backgroundGrayBox.style.height = "3050px";
-    } else if (windowWidth <= 1000) {
-      backgroundGrayBox.style.height = "2050px";
-    } else {
-      backgroundGrayBox.style.height = "1640px";
-    }
-  } else {
-    if (windowWidth <= 700) {
-      backgroundGrayBox.style.height = "2800px";
-    } else if (windowWidth <= 1000) {
-      backgroundGrayBox.style.height = "1800px";
-    } else {
-      backgroundGrayBox.style.height = "1380px";
-    }
-  }
+  // if (anyActive) {
+  //   if (windowWidth <= 700) {
+  //     backgroundGrayBox.style.height = "3050px";
+  //   } else if (windowWidth <= 1100) {
+  //     backgroundGrayBox.style.height = "2050px";
+  //   } else {
+  //     backgroundGrayBox.style.height = "1640px";
+  //   }
+  // } else {
+  //   if (windowWidth <= 700) {
+  //     backgroundGrayBox.style.height = "2800px";
+  //   } else if (windowWidth <= 1100) {
+  //     backgroundGrayBox.style.height = "1800px";
+  //   } else {
+  //     backgroundGrayBox.style.height = "1380px";
+  //   }
+  // }
 }
 
 roundBoxes.forEach((box) => {
