@@ -18,11 +18,11 @@ header {
   background: #49c6fc;
   color: #c1d200;
   font-size: 60px;
-  font-family: Inspiration;
+  font-family: "Inspiration", sans-serif;
   font-weight: 400;
   letter-spacing: 18px;
   display: flex;
-  align-items: nor;
+  align-items: center;
   justify-content: space-between;
   box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.1);
   padding: 0 50px;
@@ -56,14 +56,16 @@ nav {
   border-radius: 25px;
   backdrop-filter: blur(4px);
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
   box-sizing: border-box;
   position: fixed;
   top: 95px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 500;
+  padding: 20px;
 }
 
 footer {
@@ -72,7 +74,6 @@ footer {
   background: #49c6fc;
   color: #000000;
   font-size: 20px;
-  font-family: Inspiration;
   padding: 0 20px;
   display: flex;
   justify-content: space-between;
@@ -97,10 +98,53 @@ footer p {
   transition: transform 0.3s;
 }
 
-.logos img:hover {
+.logos img:hover,
+nav a img:hover {
   transform: translateY(-5px);
 }
 
-nav a img:hover {
-  transform: translateY(-5px);
+.garyDiscoPort,
+.imageWrapper {
+  border-radius: 25px;
+  height: 250px;
+  width: 250px;
+}
+
+.imageWrapper {
+  padding-top: 25px;
+  overflow: hidden;
+}
+
+.discoDinerPaper {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+h2 {
+  font-size: 42px;
+}
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+  font-family: "Abel", sans-serif;
+  font-weight: bolder;
+}
+
+.imageHeadingContainer,
+.paragraphContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.paragraphContainer {
+  max-width: 70%;
+  font-size: 20px;
+  font-family: "Abel", sans-serif;
+}
+
+.paragraphContainer p {
+  padding-top: 25px;
+  padding-bottom: 10px;
 }
