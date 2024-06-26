@@ -1,3 +1,10 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
 body {
   margin: 0;
   font-family: "Abel", sans-serif;
@@ -44,7 +51,9 @@ nav a {
 }
 nav a:hover {
   text-decoration: underline;
+  transform: translateY(-5px);
 }
+
 main {
   padding: 20px;
   display: flex;
@@ -54,6 +63,7 @@ main {
   margin-top: 100px;
 }
 .backgroundGrayBox {
+  height: 100vh;
   width: 80%;
   max-width: 1200px;
   background-color: rgba(217, 217, 217, 0.7);
