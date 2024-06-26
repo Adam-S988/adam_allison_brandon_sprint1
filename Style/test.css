@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  font-family: "Abel", sans-serif;
+  background-image: url("../Images/shawnanggg-TQQE32Gz4jw-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+header {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #227497;
+  color: #c1d200;
+  font-size: 2.5rem;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 10px;
+  box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.1);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header img {
+  max-width: 100%;
+  height: auto;
+  margin-left: 20px;
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 80px;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+main {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.backgroundGrayBox {
+  width: 80%;
+  max-width: 1200px;
+  background-color: rgba(217, 217, 217, 0.7);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  backdrop-filter: blur(4px);
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+.welcome {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+  letter-spacing: 5px;
+}
+.introBlurb {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+.roundBoxes {
+  width: 300px;
+  height: 100px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: height 0.5s;
+}
+.roundBoxes:hover {
+  height: 150px; /* Adjust height on hover */
+}
+.roundBoxesContent {
+  text-align: center;
+}
+.roundBoxes h3 {
+  margin: 0;
+  padding: 10px 0;
+}
+footer {
+  width: 100%;
+  height: 60px;
+  background-color: #227497;
+  color: #000000;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+}
+footer p {
+  margin: 0;
+}
+.logos {
+  display: flex;
+}
+.logos img {
+  height: 30px;
+  width: 30px;
+  margin-left: 10px;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 1000px) {
+  nav {
+    margin-left: 0;
+  }
+  header img {
+    margin-left: 10px;
+  }
+  .backgroundGrayBox {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  header {
+    height: 160px;
+  }
+  header img {
+    width: 200px;
+    margin-left: 10px;
+  }
+  nav {
+    flex-direction: column;
+    margin-left: 0;
+  }
+  nav a {
+    margin: 10px 0;
+  }
+  .backgroundGrayBox {
+    width: 95%;
+    margin-top: 180px;
+  }
+}
