@@ -111,6 +111,10 @@ main {
 }
 .roundBoxesContent {
   text-align: center;
+  padding-top: 10px;
+}
+.roundBoxesContent2 {
+  padding-bottom: 20px;
 }
 .roundBoxes h3 {
   margin: 0;
