@@ -51,14 +51,14 @@ nav {
 }
 
 footer {
-  width: calc(100% - 20px); /* Use calc() for calculations */
+  width: calc(100% - 20px);
   height: 40px;
   background: #227497;
   color: #000000;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   padding-left: 20px;
-  padding-right: 20px; /* Add padding to adjust width */
+  padding-right: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
