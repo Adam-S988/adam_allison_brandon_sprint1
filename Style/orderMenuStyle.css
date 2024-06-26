@@ -163,31 +163,28 @@ select {
   border: none;
 }
 
-button {
-  display: block;
+label {
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Arial', sans-serif;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 15%;
-  margin: 1em auto;
   height: 2em;
+  margin: 1em auto;
   font-size: 1.1rem;
+  color: black;
   background-color: white;
-  border-color: white;
   border-radius: 20px;
   min-width: 300px;
-}
-
-button a {
   text-decoration: none;
-  color: black;
-}
-
-button a:hover {
-  text-decoration: none;
-  color: black;
-}
-
-button a:visited {
-  text-decoration: none;
-  color: black;
+  padding: 0.5rem;
+  border: 1px solid #333333;
 }
 
 /* @Media */
