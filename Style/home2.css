@@ -104,7 +104,9 @@ main {
   transition: height 0.5s;
 }
 .roundBoxes:hover {
-  height: 150px; /* Adjust height on hover */
+  height: 150px;
+  color: #227497;
+  transition: 0.5s;
 }
 .roundBoxesContent {
   text-align: center;
