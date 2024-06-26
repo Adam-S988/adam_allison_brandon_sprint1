@@ -82,8 +82,9 @@ main {
 .introBlurb {
   font-size: 1.2rem;
   line-height: 1.6;
-  font-weight: 700;
-  margin-bottom: 20px;
+  font-weight: 1000;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .container {
   display: flex;
@@ -140,6 +141,10 @@ footer p {
   height: 30px;
   width: 30px;
   margin-left: 10px;
+}
+
+.frontPicture {
+  border-radius: 25px;
 }
 
 /* Media Queries */
