@@ -3,7 +3,7 @@
   font-family: "Abel", sans-serif;
 }
 body {
-  width: 1440px;
+  width: 100%;
   height: auto;
   margin: 0px;
   background-image: url("/Images/r-mac-wheeler-CJZi367anGU-unsplash.jpg");
@@ -51,13 +51,14 @@ nav {
 }
 
 footer {
-  width: 1430px;
+  width: calc(100% - 20px); /* Use calc() for calculations */
   height: 40px;
   background: #227497;
   color: #000000;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   padding-left: 20px;
+  padding-right: 20px; /* Add padding to adjust width */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -100,13 +101,13 @@ header img {
 }
 
 .backgroundGrayBox {
-  width: 98%;
-  height: 1380px;
+  width: 100%; /* Ensure it spans the full width of its container */
+  max-width: 1200px; /* Set a maximum width for larger screens */
   background: rgba(217, 217, 217, 0.7);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 25px;
   backdrop-filter: blur(4px);
-  margin: 100px 0 0 0px;
+  margin: 100px auto; /* Center horizontally with margin */
   padding: 20px;
 }
 
@@ -133,8 +134,10 @@ header img {
   align-items: flex-start;
   margin: 10px;
   position: relative;
+  cursor: pointer;
   overflow: hidden;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  transition: height 0.5s linear;
 }
 
 .roundBoxesText {
@@ -198,14 +201,7 @@ label {
 
 /* @Media */
 
-@media only screen and (max-width: 1000px) {
-  body {
-    width: 740px;
-    height: fit-content;
-  }
-  header {
-    width: 1000px;
-  }
+@media only screen and (max-width: 1300px) {
   header img {
     width: 350px;
   }
@@ -213,32 +209,15 @@ label {
     margin-left: 0px;
   }
   nav img {
-    width: 100px;
+    width: 140px;
   }
-  main {
-    justify-content: center;
-  }
-  footer {
-    width: 980px;
-  }
-  .image-container {
-    height: 300px;
-    width: 500px;
-  }
+
   .backgroundGrayBox {
-    width: 940px;
-    height: 2800px;
+    width: 96%;
   }
 }
 
-@media only screen and (max-width: 700px) {
-  body {
-    width: 600px;
-    height: fit-content;
-  }
-  header {
-    width: 700px;
-  }
+@media only screen and (max-width: 1000px) {
   header img {
     width: 250px;
     margin-left: 10px;
@@ -247,20 +226,47 @@ label {
     margin-left: 0px;
   }
   nav img {
-    width: 100px;
+    width: 120px;
   }
-  main {
+
+  .backgroundGrayBox {
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  header {
+    width: auto;
+    height: 160px;
+    flex-wrap: wrap;
+  }
+  header img {
+    width: 470px;
+    margin-left: 10px;
     justify-content: center;
   }
-  footer {
-    width: 680px;
+  nav {
+    margin-left: 0px;
   }
-  .image-container {
-    height: 300px;
-    width: 500px;
+  nav img {
+    width: 110px;
+    flex-wrap: wrap;
   }
   .backgroundGrayBox {
-    width: 639px;
-    height: 2800px;
+    margin-top: 180px;
+    width: auto;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .bigBox {
+    flex-direction: column;
+  }
+
+  .backgroundGrayBox {
+    height: fit-content;
+    margin-top: 180px;
   }
 }
