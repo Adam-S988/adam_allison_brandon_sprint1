@@ -8,8 +8,8 @@ body {
   height: auto;
   margin: 0px;
   background-image: url("../Images/shawnanggg-TQQE32Gz4jw-unsplash.jpg");
-  background-size: cover; /* Adjust as needed */
-  background-position: center; /* Adjust as needed */
+  background-size: cover;
+  background-position: center;
   background-attachment: fixed;
 }
 
@@ -286,5 +286,13 @@ header img {
   .backgroundGrayBox {
     margin-top: 180px;
     width: auto;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .backgroundGrayBox {
+    height: fit-content;
   }
 }
