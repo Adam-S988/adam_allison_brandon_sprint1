@@ -4,7 +4,7 @@
 }
 
 body {
-  width: 1440px;
+  width: 100%;
   height: auto;
   margin: 0px;
   background-image: url("../Images/r-mac-wheeler-CJZi367anGU-unsplash.jpg");
@@ -57,31 +57,31 @@ p {
 }
 
 footer {
-  width: 1450px;
+  width: 100%;
   height: 40px;
   background: #227497;
   color: #000000;
   font-size: 20px;
-  font-family: Inspiration;
+  font-family: Arial, Helvetica, sans-serif;
   padding-left: 20px;
   display: flex;
-  justify-content: space-between; /* Align items with space between them */
-  align-items: center; /* Center items vertically */
+  justify-content: space-between;
+  align-items: center;
 }
 
 footer p {
-  margin: 0; /* Remove default margin for the paragraph */
+  margin: 0;
 }
 
 .logos {
   display: flex;
-  margin-right: 20px; /* Adjust margin as needed */
+  margin-right: 20px;
 }
 
 .logos img {
   height: 30px;
   width: 30px;
-  margin-left: 10px; /* Add margin between images if desired */
+  margin-left: 10px;
 }
 
 .navlink {
@@ -110,9 +110,21 @@ header img {
   padding: 20px;
   display: flex;
   justify-content: center;
+  position: relative;
 }
 
-/* Just testing */
+input[type="submit"] {
+  background-color: #227497;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 10px;
+  right: 100px;
+}
+
 form {
   width: 700px;
   height: 680px;
@@ -120,6 +132,7 @@ form {
   min-width: 300px;
   margin: 0;
   padding-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 fieldset {
@@ -239,17 +252,31 @@ select {
     width: 110px;
     flex-wrap: wrap;
   }
-  .backgroundGrayBox {
+  label {
+    width: 95%;
+  }
+  fieldset {
+    width: 90;
+  }
+  /* .backgroundGrayBox {
     margin-top: 180px;
     width: auto;
-  }
+  } */
 
   .container {
     flex-direction: column;
   }
 
   .backgroundGrayBox {
-    height: fit-content;
     margin-top: 180px;
+    margin-left: 10px;
+    width: 93%;
+    height: 720px;
+  }
+
+  .center-container {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 12px;
   }
 }
