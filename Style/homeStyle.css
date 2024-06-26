@@ -294,5 +294,6 @@ header img {
 
   .backgroundGrayBox {
     height: fit-content;
+    margin-top: 180px;
   }
 }
