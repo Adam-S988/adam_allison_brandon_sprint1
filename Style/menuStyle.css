@@ -3,7 +3,9 @@ body {
   height: auto;
   margin: 0px;
   background-image: url("/Images/amel-majanovic-0s-D2GUrC-A-unsplash.jpg");
-  background-size: 100%;
+  background-size: cover; /* Adjust as needed */
+  background-position: center; /* Adjust as needed */
+  background-attachment: fixed;
 }
 
 header {
@@ -11,8 +13,9 @@ header {
   height: 80px;
   left: 0px;
   top: 0px;
-  position: absolute;
-  background: #49c6fc;
+  position: fixed;
+  z-index: 1000;
+  background: #227497;
   color: #c1d200;
   font-size: 60px;
   font-family: Inspiration;
@@ -23,6 +26,8 @@ header {
   display: inline-flex;
   align-items: normal;
   box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.1);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 main {
@@ -33,18 +38,17 @@ main {
 }
 
 nav {
-  width: 40%;
   word-spacing: 100px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  margin-left: 120px;
+  margin-left: 80px;
 }
 
 footer {
   width: 100% - 20px;
   height: 40px;
-  background: #49c6fc;
+  background: #227497;
   color: #000000;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
@@ -124,6 +128,7 @@ header img {
   align-items: flex-start;
   margin: 10px;
   position: relative;
+  cursor: pointer;
   overflow: hidden;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
   transition: height 0.5s linear;
