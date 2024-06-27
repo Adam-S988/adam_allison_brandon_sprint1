@@ -21,20 +21,24 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 1000;
-  background: #227497;
+  background-color: #227497;
   color: #c1d200;
-  font-size: 60px;
-  font-family: Inspiration;
+  font-size: 2.5rem;
   font-weight: 400;
-  letter-spacing: 18px;
-  word-wrap: break-word;
-  flex-shrink: 0;
-  display: inline-flex;
-  align-items: normal;
+  text-align: center;
+  padding-top: 10px;
   box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.1);
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header img {
+  max-width: 100%;
+  height: auto;
+  margin-left: 20px;
 }
 
 main {
@@ -86,11 +90,6 @@ footer {
 
 footer p {
   margin: 0;
-}
-
-header img {
-  margin-top: 10px;
-  margin-left: 50px;
 }
 
 .logos {

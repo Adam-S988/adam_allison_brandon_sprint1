@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
 * {
-  font-family: 'Abel', sans-serif;
+  font-family: "Abel", sans-serif;
 }
 
 body {
   width: 100%;
   height: auto;
   margin: 0px;
-  background-image: url('../Images/r-mac-wheeler-CJZi367anGU-unsplash.jpg');
+  background-image: url("../Images/r-mac-wheeler-CJZi367anGU-unsplash-2.jpg");
   background-size: cover; /* Adjust as needed */
   background-position: center; /* Adjust as needed */
   background-attachment: fixed;
@@ -16,23 +16,27 @@ body {
 header {
   width: 100%;
   height: 80px;
-  left: 0px;
-  top: 0px;
   position: fixed;
-  z-index: 1000;
-  background: #227497;
+  top: 0;
+  left: 0;
+  background-color: #227497;
   color: #c1d200;
-  font-size: 60px;
-  font-family: Inspiration;
+  font-size: 2.5rem;
   font-weight: 400;
-  letter-spacing: 18px;
-  word-wrap: break-word;
-  flex-shrink: 0;
-  display: inline-flex;
-  align-items: normal;
+  text-align: center;
+  padding-top: 10px;
   box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.1);
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header img {
+  max-width: 100%;
+  height: auto;
+  margin-left: 20px;
 }
 
 main {
@@ -94,11 +98,6 @@ nav a img:hover {
   transform: translateY(-5px);
 }
 
-header img {
-  margin-top: 10px;
-  margin-left: 50px;
-}
-
 .backgroundGrayBox {
   width: 98%;
   background: rgba(217, 217, 217, 0.7);
@@ -114,7 +113,7 @@ header img {
   overflow: auto;
 }
 
-input[type='submit'] {
+input[type="submit"] {
   display: flex;
   justify-content: center;
   align-items: center;

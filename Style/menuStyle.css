@@ -7,7 +7,7 @@ body {
   width: 100% - 10px;
   height: auto;
   margin: 0px;
-  background-image: url("/Images/amel-majanovic-0s-D2GUrC-A-unsplash.jpg");
+  background-image: url("/Images/amel-majanovic-0s-D2GUrC-A-unsplash-2.jpg");
   background-size: cover; /* Adjust as needed */
   background-position: center; /* Adjust as needed */
   background-attachment: fixed;
@@ -16,23 +16,22 @@ body {
 header {
   width: 100%;
   height: 80px;
-  left: 0px;
-  top: 0px;
   position: fixed;
-  z-index: 1000;
-  background: #227497;
+  top: 0;
+  left: 0;
+  background-color: #227497;
   color: #c1d200;
-  font-size: 60px;
-  font-family: Inspiration;
+  font-size: 2.5rem;
   font-weight: 400;
-  letter-spacing: 18px;
-  word-wrap: break-word;
-  flex-shrink: 0;
-  display: inline-flex;
-  align-items: normal;
+  text-align: center;
+  padding-top: 10px;
   box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.1);
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 main {
@@ -76,8 +75,9 @@ nav a img:hover {
 }
 
 header img {
-  margin-top: 10px;
-  margin-left: 50px;
+  max-width: 100%;
+  height: auto;
+  margin-left: 20px;
 }
 
 /* Classes */
