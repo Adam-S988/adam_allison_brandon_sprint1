@@ -105,10 +105,41 @@
               Cash</label
             >
           </fieldset>
+
+          <fieldset id="credit-card-info" style="display: none">
+            <label for="card-number"
+              >Credit Card Number:
+              <input
+                type="text"
+                id="card-number"
+                name="card-number"
+                placeholder="1234 5678 9012 3456"
+              />
+            </label>
+            <label for="card-expiration"
+              >Expiration Date:
+              <input
+                type="text"
+                id="card-expiration"
+                name="card-expiration"
+                placeholder="MM/YY"
+              />
+            </label>
+            <label for="card-cvv"
+              >CVV:
+              <input
+                type="text"
+                id="card-cvv"
+                name="card-cvv"
+                placeholder="123"
+              />
+            </label>
+          </fieldset>
+
           <fieldset>
             <label for="referrer"
               >Delivery Method:
-              <select id="referrer" name="referrer">
+              <select id="referrer" name="referrer" required>
                 <option value="">(select one)</option>
                 <option value="1">Pick-Up</option>
                 <option value="2">Delivery</option>
