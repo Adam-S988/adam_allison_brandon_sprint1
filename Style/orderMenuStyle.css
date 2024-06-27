@@ -1,12 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 * {
-  font-family: "Abel", sans-serif;
+  font-family: 'Abel', sans-serif;
 }
 body {
-  width: 100%;
+  width: 100% - 10px;
   height: auto;
   margin: 0px;
-  background-image: url("/Images/r-mac-wheeler-CJZi367anGU-unsplash.jpg");
+  background-image: url('/Images/r-mac-wheeler-CJZi367anGU-unsplash.jpg');
   background-size: cover; /* Adjust as needed */
   background-position: center; /* Adjust as needed */
   background-attachment: fixed;
@@ -42,7 +42,6 @@ main {
 }
 
 nav {
-  width: 40%;
   word-spacing: 100px;
   display: flex;
   align-items: center;
@@ -58,7 +57,6 @@ footer {
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   padding-left: 20px;
-  padding-right: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -101,13 +99,13 @@ header img {
 }
 
 .backgroundGrayBox {
-  width: 100%; /* Ensure it spans the full width of its container */
-  max-width: 1200px; /* Set a maximum width for larger screens */
+  width: 97%;
+  height: fit-content;
   background: rgba(217, 217, 217, 0.7);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 25px;
   backdrop-filter: blur(4px);
-  margin: 100px auto; /* Center horizontally with margin */
+  margin: 100px 0 0 0;
   padding: 20px;
 }
 
@@ -143,7 +141,7 @@ header img {
 .roundBoxesText {
   color: black;
   font-size: 16px;
-  font-family: "Arial", sans-serif;
+  font-family: 'Arial', sans-serif;
   justify-content: center;
   max-width: 260px;
 }
@@ -166,7 +164,7 @@ select {
   color: black;
   font-size: 16px;
   font-weight: 600;
-  font-family: "Arial", sans-serif;
+  font-family: 'Arial', sans-serif;
   justify-content: center;
   max-width: 260px;
   text-align: center;
@@ -178,8 +176,6 @@ select {
 label {
   color: black;
   font-size: 16px;
-  font-weight: 600;
-  font-family: "Arial", sans-serif;
 }
 
 .btn {
@@ -230,7 +226,7 @@ label {
   }
 
   .backgroundGrayBox {
-    width: auto;
+    width: 95%;
   }
 }
 

@@ -1,3 +1,10 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
 body {
   margin: 0;
   font-family: "Abel", sans-serif;
@@ -44,7 +51,9 @@ nav a {
 }
 nav a:hover {
   text-decoration: underline;
+  transform: translateY(-5px);
 }
+
 main {
   padding: 20px;
   display: flex;
@@ -54,6 +63,7 @@ main {
   margin-top: 100px;
 }
 .backgroundGrayBox {
+  height: 100vh;
   width: 80%;
   max-width: 1200px;
   background-color: rgba(217, 217, 217, 0.7);
@@ -72,8 +82,9 @@ main {
 .introBlurb {
   font-size: 1.2rem;
   line-height: 1.6;
-  font-weight: 700;
-  margin-bottom: 20px;
+  font-weight: 1000;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .container {
   display: flex;
@@ -94,17 +105,23 @@ main {
   transition: height 0.5s;
 }
 .roundBoxes:hover {
-  height: 150px; /* Adjust height on hover */
+  height: 150px;
+  color: #227497;
+  transition: 0.5s;
 }
 .roundBoxesContent {
   text-align: center;
+  padding-top: 10px;
+}
+.roundBoxesContent2 {
+  padding-bottom: 20px;
 }
 .roundBoxes h3 {
   margin: 0;
   padding: 10px 0;
 }
 footer {
-  width: 100%;
+  width: 97%;
   height: 60px;
   background-color: #227497;
   color: #000000;
@@ -128,6 +145,10 @@ footer p {
   height: 30px;
   width: 30px;
   margin-left: 10px;
+}
+
+.frontPicture {
+  border-radius: 25px;
 }
 
 /* Media Queries */

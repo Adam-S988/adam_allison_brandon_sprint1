@@ -177,6 +177,7 @@ header img {
   font-family: "Abel", sans-serif;
   padding-bottom: 20px;
   letter-spacing: 3px;
+  font-weight: 1000;
 }
 
 .roundBoxes.active .roundBoxesContent img {
