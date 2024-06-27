@@ -55,10 +55,10 @@ nav {
 
 footer {
   width: calc(100% - 20px);
-  height: 40px;
+  height: 60px;
   background: #227497;
   color: #000000;
-  font-size: 20px;
+  font-size: 1rem;
   font-family: Arial, Helvetica, sans-serif;
   padding-left: 20px;
   display: flex;

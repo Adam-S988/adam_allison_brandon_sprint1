@@ -179,7 +179,6 @@ footer p {
   font-size: 32px;
 }
 
-<<<<<<< HEAD
 /* @Media */
 
 @media only screen and (max-width: 1300px) {
@@ -241,24 +240,25 @@ footer p {
   .garyDiscoPort {
     width: 50%;
     height: auto;
-=======
-.reviewContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  margin-top: 20px;
-  font-size: 32px;
-}
+  }
 
-.reviewImg {
-  height: 180px;
-}
-
-@media only screen and (max-width: 1000px) {
   .reviewContainer {
-    flex-direction: column;
+    display: flex;
+    justify-content: center;
     align-items: center;
->>>>>>> d8db62523cf66aa5db6b0c8a5e9a3903da477168
+    gap: 20px;
+    margin-top: 20px;
+    font-size: 32px;
+  }
+
+  .reviewImg {
+    height: 180px;
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .reviewContainer {
+      flex-direction: column;
+      align-items: center;
+    }
   }
 }
