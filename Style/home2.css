@@ -212,6 +212,15 @@ footer p {
   .backgroundGrayBox {
     width: 95%;
   }
+
+  .reviewContainer {
+    width: 600px;
+  }
+
+  .reviewImg {
+    width: 450px;
+    margin-left: 135px;
+  }
 }
 
 @media only screen and (max-width: 700px) {
@@ -252,7 +261,12 @@ footer p {
   }
 
   .reviewImg {
-    height: 180px;
+    width: 450px;
+    margin-left: 135px;
+  }
+
+  .reviewContainer {
+    width: 300px;
   }
 
   @media only screen and (max-width: 1000px) {
